@@ -10,7 +10,7 @@ imageInput.addEventListener('change', (event) => {
 
   reader.onload = (e) => {
     const img = new Image();
-    img.src = e.target.result;
+    img.src = e.target.result;git
     img.onload = () => {
       uploadedImage = img;
       drawImage();
